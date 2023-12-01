@@ -1,6 +1,0 @@
-pandas
-transformers
-datasets
-nltk
-scikit-learn
-gensim
