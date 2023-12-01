@@ -66,4 +66,26 @@ Henceforth, you can directly run the second file - [LogisticRegressionLoadVec.ip
 
 ## Possible Issue
 
-You may run into issues regarding the file Paths, or library imports. Both of which can be solved with ease.
+Some common issues you may run into:
+
+- CUDA Out of Memory: This may arise due to the difference in systems, there are various solutions to this:
+  - Try to decrease the batch size
+  - Insert torch.cuda.empty_cache() right before heavy computations
+  - restart the kernel
+  - Stop any other GPU-intensive processes.
+- Library not found: Again, due to the varying nature of the requirements file, users may face this issue. Install whichever library is not being resolved with 
+```
+conda install -c conda-forge <library-name>
+```
+or
+```
+conda install -c anaconda <library-name>
+```
+or
+```
+pip install <library-name>
+```
+- File Does not exist/ Path not found: 
+  - Make sure you create the Models folder
+  - Make sure the file you're trying to read/ import is at the location specified and name of the file and folder is correct.
+  - In case you are using Google Colab, make sure the drive is mounted and the files exists in the appropriate location
