@@ -33,3 +33,9 @@ pip install -r requirements-torch-cpu.txt
 once the requirements are set, you are free to run any of the notebooks.
 
 The PreTrainedZeroShot is free to run without any complications and can be run anytime although it's runtime is quite heavy.
+
+Before running the other, make sure to create a folder names 'Models' in order to store the models without any hassle
+
+For the remaining two, in order to avoid repeated calculations and computations, there are two variations of each file.
+
+For the Fine-tined Bert base model, there the base file which can be run to train the model which will automaticallt be stored in 
