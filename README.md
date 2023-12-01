@@ -16,7 +16,7 @@ As a Part of the coursework of CS421 at UIC, I am comparing the results of Pretr
 
 ## Get started
 
-I would reccomend using conda.
+I would recommend using conda.
 
 Activate a python environment where pytorch is installed or create a new environment from scratch.
 
