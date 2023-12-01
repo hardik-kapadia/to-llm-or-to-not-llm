@@ -3,9 +3,17 @@
 ## Intro 
 As a Part of the coursework of CS421 at UIC, I am comparing the results of Pretrained Large Language Models, Finetuned LLMs, and traditional Machine Learning Algorithms in an effort to identify use cases where the expenditure of excess computational cost is not justified by the meagre increase in the model's performance.
 
+<br>
+
+<center>
+
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 [![Made with Pytoch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
+
 [![Share to Community](https://huggingface.co/datasets/huggingface/badges/resolve/main/powered-by-huggingface-dark.svg)](https://huggingface.co)
+
+</center>
+
 ## Get started
 
 I would reccomend using conda.
