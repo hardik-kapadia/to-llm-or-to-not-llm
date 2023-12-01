@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/spu
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch
+torchvision
+torchaudio
+numpy
+pandas
+transformers
+datasets
+nltk
+scikit-learn
+gensim
